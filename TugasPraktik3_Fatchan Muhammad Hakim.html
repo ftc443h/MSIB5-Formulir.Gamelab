@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatchan Muhammad Hakim</title>
+    
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            background-color: whitesmoke;
+        }
+        
+        .container-ins{
+            font-family:monospace; 
+            font-size: 20px; 
+            font-weight:bold; 
+            text-transform: uppercase;
+        }
+        
+        .container-JduulH3{
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+        }
+        
+        .container-CVDO{
+            margin-left: 320px; 
+            width: 50%;
+            height: 50%;
+        }
+        
+        .container-CVS{
+            position: absolute; 
+            margin-top: 420px; 
+            margin-left: -450px; 
+            border: 1px solid #000000;
+            width: 300px; 
+            height: 140px;
+        }
+        
+        .container-divvFrom{
+            padding: 20px;
+        }
+        
+        .container-labelAL{
+            position: absolute;
+            margin-top: 25px;
+            text-align: center;
+        }
+        
+        .container-textra{
+            text-align: justify;
+            position: absolute;
+            margin-left: 120px;
+        }
+        
+        .container-inputDte{
+            text-align: center;
+            width: 200px;
+            height: 30px;
+            margin-left: 30px;
+        }
+        
+        .container-inputTMP{
+            text-align: center;
+            width: 200px;
+            height: 30px;
+            margin-left: 34px;
+        }
+        
+        .container-inputNme{
+            text-align: center;
+            width: 200px;
+            height: 30px;
+            margin-left: 22px;
+        }
+        
+        .container-form{
+            height: 620px;
+            margin-left: 500px;
+            margin-top: 200px;
+        }
+        
+        .container-inputGndr{
+            position: relative;
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+        
+        .container-inputGndrPR{
+            position: relative;
+            margin-left: 20px;
+        }
+        
+        .container-labelEmL{
+            position: absolute;
+            margin-top: 65px;
+        }
+        
+        .container-inputEML{
+            text-align: center;
+            width: 200px;
+            height: 30px;
+            margin-left: 120px;
+            margin-top: 60px;
+        }
+        
+        .container-labelNo{
+            position: absolute;
+            margin-top: -2px;
+        }
+        
+        .container-inputNo{
+            text-align: center;
+            width: 200px;
+            height: 30px;
+            position: absolute;
+            margin-left: 120px;
+            margin-top: -10px;
+        }
+        
+        .container-labelKota{
+            position: absolute;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        
+        .container-inputselc{
+            position: absolute;
+            margin-top: 30px;
+            margin-left: 140px;
+        }
+        
+        .button-sav{
+            position: absolute;
+            border-radius: 4px;
+            width: 70px;
+            background-color: darkslategrey;
+            color: white;
+            border: none;
+            height: 30px;
+            font-size: 14px;
+            margin-top: 80px;
+            margin-left: 230px;
+            cursor: pointer;
+        }
+        
+        .button-cncl{
+            position: absolute;
+            border-radius: 4px;
+            width: 70px;
+            background-color: darkslategrey;
+            color: white;
+            border: none;
+            height: 30px;
+            font-size: 14px;
+            margin-top: 80px;
+            margin-left: 314px;
+            cursor: pointer;
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- Start Judul Form -->
+    <h3 class="container-JduulH3"><ins class="container-ins">
+        Formulir Pendaftaran</ins></h3>
+    <!-- End Judul Form -->
+
+    <!-- Start Videos -->
+    <video class="container-CVDO" controls>
+        <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" type="video/mp4">
+    </video>
+    <!-- End Videos -->
+
+
+    <!-- Start Canva -->
+    <canvas class="container-CVS" id="MyCanvas">
+
+    </canvas>
+    <!-- End Canva -->
+
+    <!-- Start Form-->
+    <form action="#" class="container-form">
+        <div class="container-divvFrom">
+            <label class="container-labelNme" for="">Nama Lengkap</label>
+            <input class="container-inputNme" type="text" name="name" id="#" placeholder="Masukan Nama Anda">
+        </div>
+        <div class="container-divvFrom">
+            <label class="container-labelTMP" for="">Tempat Lahir</label>
+            <input class="container-inputTMP" type="text" name="name" id="#" placeholder="Masukan Tempat Lahir">
+        </div>
+        <div class="container-divvFrom">
+            <label class="container-labelTNGL" for="">Tanggal Lahir</label>
+            <input class="container-inputDte" type="date" name="date" id="#" placeholder="mm/dy/yyy">
+        </div>
+        <div class="container-divvFrom">
+            <label class="container-labelGndr" for="">Jenis Kelamin</label>
+            <input class="container-inputGndr" type="radio" name="gender" value="laki-laki"> Laki-Laki
+            <input class="container-inputGndrPR" type="radio" name="gender" value="perempuan"> Perempuan
+        </div>
+        <div class="container-divvFrom">
+            <label class="container-labelAL" for="">Alamat</label>
+            <textarea class="container-textra" name="name" id="" cols="30" rows="4"></textarea>
+        </div>
+        <div class="container-divvFrom">
+            <label class="container-labelEmL" for="">E-Mail</label>
+            <input class="container-inputEML" type="email" name="email" id="#" placeholder="Masukan E-Mail Anda">
+        </div>
+        <div class="container-divvFrom">
+            <label class="container-labelNo" for="">No.HP</label>
+            <input class="container-inputNo" type="text" name="number" id="#" placeholder="Masukan No.HP Anda">
+        </div>
+        <div class="container-Slect">
+            <label class="container-labelKota" for="">Kota</label>
+            <select class="container-inputselc" name="kota" id="kota">
+                <option value="">----Silakan Pilih Kota----</option>
+                <option value="jakarta">Jakarta</option>
+                <option value="bandung">Bandung</option>
+                <option value="bekasi">Bekasi</option>
+                <option value="bogor">Bogor</option>
+                <option value="depok">Depok</option>
+            </select>
+        </div>
+
+        <button class="button-sav" type="button" name="simpan" >Simpan</button>
+        <button class="button-cncl" type="button" name="cancel" >Batal</button>
+    </form>
+    <!-- End Form-->
+
+
+    <!-- Start JavaScript-->
+    <!-- <script src="js/script.js"></script> -->
+    <script>
+        // Start Canvas
+        var canv = document.getElementById("MyCanvas");
+        var ctvs = canv.getContext("2d");
+        var grds = ctvs.createLinearGradient(0, 0, 250, 0);
+
+        grds.addColorStop(0, "orange");
+        grds.addColorStop(1, "Yellow");
+        ctvs.font = "28px Text New Roman";
+
+        ctvs.fillStyle = grds;
+        ctvs.fillRect(-2, -10, 320, 180);
+        ctvs.strokeText("Education Studio", 50, 80);
+        // End Canvas
+    </script>
+    <!-- End JavaScript-->
+
+</body>
+</html>

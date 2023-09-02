@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+.container-ins{
+    font-family:monospace; 
+    font-size: 20px; 
+    font-weight:bold; 
+    text-transform: uppercase;
+}
+
+.container-JduulH3{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.container-CVDO{
+    margin-left: 320px; 
+    width: 50%;
+    height: 50%;
+}
+
+.container-CVS{
+    position: absolute; 
+    margin-top: 420px; 
+    margin-left: -450px; 
+    border: 1px solid #000000;
+    width: 300px; 
+    height: 140px;
+}
+
+.container-divvFrom{
+    padding: 20px;
+}
+
+.container-labelAL{
+    position: absolute;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.container-textra{
+    text-align: justify;
+    position: absolute;
+    margin-left: 120px;
+}
+
+.container-inputDte{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.container-inputTMP{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    margin-left: 34px;
+}
+
+.container-inputNme{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    margin-left: 22px;
+}
+
+.container-form{
+    height: 620px;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+.container-inputGndr{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.container-inputGndrPR{
+    position: relative;
+    margin-left: 20px;
+}
+
+.container-labelEmL{
+    position: absolute;
+    margin-top: 65px;
+}
+
+.container-inputEML{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+.container-labelNo{
+    position: absolute;
+    margin-top: -2px;
+}
+
+.container-inputNo{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -10px;
+}
+
+.container-labelKota{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.container-inputselc{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.button-sav{
+    position: absolute;
+    border-radius: 4px;
+    width: 70px;
+    background-color: darkslategrey;
+    color: white;
+    border: none;
+    height: 30px;
+    font-size: 14px;
+    margin-top: 80px;
+    margin-left: 230px;
+    cursor: pointer;
+}
+
+.button-cncl{
+    position: absolute;
+    border-radius: 4px;
+    width: 70px;
+    background-color: darkslategrey;
+    color: white;
+    border: none;
+    height: 30px;
+    font-size: 14px;
+    margin-top: 80px;
+    margin-left: 314px;
+    cursor: pointer;
+}
